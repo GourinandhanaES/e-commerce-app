@@ -40,7 +40,7 @@ const Products = () => {
 
     return (
         <div className="space-y-8">
-            <div className="text-center max-w-2xl mx-auto mb-16">
+            <div className="text-center max-w-2xl mx-auto mb-7 mt-3">
                 <h1 className="text-5xl font-black text-slate-900 mb-1 tracking-tight">Explore Our Collection</h1>
                 {/* <p className="text-slate-500 text-lg">Explore our range of meticulously crafted products designed for the modern lifestyle.</p> */}
             </div>
@@ -61,7 +61,7 @@ const Products = () => {
                 </div>
             ) : (
                 <>
-                    <p className="text-sm font-bold text-slate-400 mb-6 uppercase tracking-widest">
+                    <p className="text-sm font-bold text-slate-400 mb-6 uppercase tracking-widest ml-5">
                         Showing {filteredProducts.length} items
                     </p>
                     <ProductList products={filteredProducts} />

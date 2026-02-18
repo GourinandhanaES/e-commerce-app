@@ -29,7 +29,7 @@ const Home = () => {
                         </span>
                         </div>
 
-                        <h1 className="text-6xl sm:text-6xl md:text-6xl lg:text-[8rem] font-black text-white leading-[1] sm:leading-[0.9] md:leading-[0.85] tracking-tight md:tracking-tighter">
+                        <h1 className="text-6xl sm:text-6xl md:text-6xl lg:text-[7rem] font-black text-white leading-[1] sm:leading-[0.9] md:leading-[0.85] tracking-tight md:tracking-tighter">
                         Pure <br />
                         <span className="text-primary-500">Luxury.</span>
                         </h1>
@@ -86,7 +86,7 @@ const Home = () => {
             </section>
 
             {/* Benefits Section */}
-            <section className="bg-slate-50/50  rounded-[5rem] border border-slate-100/50">
+            <section className="bg-slate-50/50  rounded-[5rem] border-none sm:border sm:border-slate-100/50 ">
                 <div className="container mx-auto px-4 max-w-6xl">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-20 ">
                         {[
