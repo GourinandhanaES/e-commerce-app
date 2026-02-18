@@ -13,8 +13,8 @@ const Home = () => {
     return (
         <div className="space-y-24 pb-20">
             {/* Hero Section */}
-            <section className="relative mt-4">
-                <div className="relative h-[550px] rounded-[4rem] overflow-hidden bg-slate-950 shadow-[0_40px_100px_rgba(0,0,0,0.2)]">
+            <section className="relative mt-4 px-4 sm:px-6 md:px-8">
+                <div className="relative h-[650px] sm:h-[550px] md:h-[550px] rounded-[2rem] md:rounded-[4rem] overflow-hidden bg-slate-950 shadow-[0_40px_100px_rgba(0,0,0,0.2)]">
                     <img
                     src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=2000&auto=format&fit=crop"
                     alt="Hero"
